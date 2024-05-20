@@ -4,7 +4,8 @@
   "description": "This is the email-auto-reponder backend code which automatically detect the type of the incoming emails on Gmail and outlook and assign in a label and reply the email with desired replies.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/diwakarg12/email-auto-responder/issues"
   },
-  "homepage": "https://github.com/diwakarg12/email-auto-responder#readme"
+  "homepage": "https://github.com/diwakarg12/email-auto-responder#readme",
+  "dependencies": {
+    "bullmq": "^5.7.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^137.1.0",
+    "mongoose": "^8.4.0",
+    "openai": "^4.47.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
 }
