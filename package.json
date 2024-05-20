@@ -1,0 +1,19 @@
+{
+  "name": "email-auto-responder",
+  "version": "1.0.0",
+  "description": "This is the email-auto-reponder backend code which automatically detect the type of the incoming emails on Gmail and outlook and assign in a label and reply the email with desired replies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diwakarg12/email-auto-responder.git"
+  },
+  "author": "Diwakar Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diwakarg12/email-auto-responder/issues"
+  },
+  "homepage": "https://github.com/diwakarg12/email-auto-responder#readme"
+}
